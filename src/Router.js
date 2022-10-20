@@ -1,6 +1,7 @@
 import React from 'react';
 import { observer } from 'mobx-react/native';
-import { ViewPropTypes, BackHandler, Linking } from 'react-native';
+import { BackHandler, Linking } from 'react-native';
+import { ViewPropTypes } from 'deprecated-react-native-prop-types';
 import PropTypes from 'prop-types';
 import { addNavigationHelpers } from 'react-navigation';
 import navigationStore from './navigationStore';
